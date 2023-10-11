@@ -1,0 +1,56 @@
+/* FOOTER SECTION STYLING */
+#footer-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1em 0em;
+    opacity: .9;
+}
+
+#footer-section #footer-description>* {
+    margin-top: 2em;
+}
+
+#footer-section #footer-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-section #footer-description h3 {
+    background-color: #ffc915;
+    padding: 10px 50px;
+    color: black;
+    border-radius: 5px;
+
+}
+
+#footer-section #footer-description .footer-1 {
+    display: flex;
+    gap: 10px;
+}
+
+#footer-section #footer-description .footer-1 div {
+    background-color: white;
+    width: 2px;
+    height: 20px;
+}
+
+#footer-section #footer-description ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+#footer-section #footer-description ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+}

@@ -1,0 +1,257 @@
+/* TRIP SEARCHING STYLING */
+#search-trips-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+    align-items: center;
+    position: relative;
+    height: 80svh;
+
+}
+
+.intial-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search-heading img,
+#search-heading .blur-hash {
+    z-index: -1;
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+#search-trips-section h1 {
+    margin-top: 1em;
+    font-family: Balmy;
+    font-size: 5vw;
+    font-weight: lighter;
+    opacity: .8;
+}
+
+#search-trips-section form {
+    padding: 10px;
+}
+
+#search-trips-section form>* {
+    margin: 15px 20px;
+}
+
+#search-trips-section form button {
+    padding: 10px 20px;
+    background-color: #FFC915;
+}
+
+
+/* PAGINATION STYLING */
+
+.containerButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+.containerButtons li {
+    margin: 1em;
+    border-radius: 2px;
+}
+
+.previousButton a,
+.nextButton a {
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ffc915;
+}
+
+.selected a {
+    border-bottom: 1px solid black !important;
+}
+
+.disabled {
+    opacity: .5;
+}
+
+
+
+/* SINGLE TRIP CARD STYLING */
+
+#trips-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 7em 1em;
+    position: relative;
+    gap: 5em;
+}
+
+#trips-section p {
+    font-size: .8em;
+    text-align: center;
+}
+
+.hoster-name {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* .single-trip-section:nth-child(1) {
+    border-top: 1px solid black;
+} */
+
+/* .single-trip-section {
+    padding: 15px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+} */
+.single-trip-section {
+    width: fit-content;
+    height: fit-content;
+    background-color: #FFEBA7;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.single-trip-section img {
+    width: 10em;
+    height: unset;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.single-trip-body {
+    flex: 1 1;
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+/* .single-trip-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.single-trip-body>* {
+    margin: auto;
+}
+
+
+
+.single-trip-section h5 {
+    text-transform: capitalize;
+    display: flex;
+    gap: 20px;
+    opacity: .8;
+}
+
+.single-trip-heading {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.single-trip-section button {
+    text-transform: capitalize;
+    padding: 5px;
+    background-color: rgb(33, 32, 32);
+    color: white;
+    border-radius: 5px;
+}
+
+.single-trip-section .cross {
+    font-size: 1em;
+}
+
+.single-trip-card {
+    background-color: #fce8a9;
+    height: fit-content !important;
+    width: fit-content !important;
+    transition: .3s ease-in;
+    transform: translate(-50%, -50%) scale(1.2);
+    transform-origin: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: 0 !important;
+    z-index: 10;
+    padding: 0 !important;
+}
+
+.pop-up-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trip-pop-up {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+
+}
+
+.trip-pop-up>* {
+    padding: 4px 0px;
+}
+
+.trip-stop-overs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.host-information {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.pop-up-section img,
+.pop-up-section .blur-hash {
+    width: 13em !important;
+    height: 22em !important;
+    padding: 0px !important;
+    object-fit: cover;
+}

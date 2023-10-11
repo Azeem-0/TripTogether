@@ -1,0 +1,145 @@
+/* POSTING TRIP STYLING */
+
+#post-trips-section {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100svh;
+    min-height: 100svh;
+    background-color: #f8f8f8;
+}
+
+#post-trips-heading {
+    min-height: 80svh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
+    position: relative;
+}
+
+#post-trips-heading p {
+    z-index: 1;
+}
+
+#post-trips-heading img,
+#post-trips-heading .blur-hash {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+#post-trips-heading div {
+    gap: 20px;
+    z-index: 5;
+}
+
+#post-trips-heading div div button {
+    padding: 5px 15px;
+    background-color: black;
+    opacity: .9;
+    color: white;
+    margin: 10px;
+}
+
+#post-trips-section h1 {
+    margin-top: 1em;
+    font-size: 4.5vw;
+    font-family: Balmy;
+    font-weight: lighter;
+    opacity: .85;
+}
+
+#post-trips-section form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#post-trips-section form>* {
+    margin: 10px 15px;
+}
+
+.react-datepicker__navigation {
+    width: 30px !important;
+    height: 30px !important;
+    z-index: 6 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent !important;
+}
+
+#post-trips-section form button {
+    width: 14em;
+    height: 3em;
+    background-color: #FFC915;
+    color: black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-lottie {
+    width: 7em;
+    padding: 0 !important;
+}
+
+
+/* MULTI SLIDER FORM */
+.time-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.go169520481 {
+    display: none;
+}
+
+/* INFORMATIVE SECTION DESIGNING */
+#post-trips-informative {
+    width: 100%;
+    padding: 5em 0em;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2em;
+}
+
+.post-info-cards {
+    border-radius: 10px;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.post-info-cards>* {
+    padding: 20px;
+    text-align: center;
+}
+
+.post-info-cards p {
+    text-align: justify;
+    font-size: .8em;
+}
+
+.post-info-cards svg {
+    font-size: 4em;
+    padding: 10px;
+}

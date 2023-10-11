@@ -1,0 +1,58 @@
+#landing-section>* {
+    padding: 5em 0em 0em 0em;
+}
+
+#hero-section {
+    height: 100svh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0em 5em 0em 8em;
+}
+
+#hero-section>* {
+    margin: 10px 0px 10px 0px;
+}
+
+#hero-section h1 {
+    font-family: Balmy;
+    font-size: 4.5em;
+    font-weight: lighter;
+    color: #292727;
+}
+
+#hero-section p {
+    width: 50vw;
+}
+
+#hero-section button {
+    width: fit-content;
+    height: 3em;
+    padding: 10px 30px;
+    border: 0px;
+    background-color: #FFC915;
+    margin: 0;
+    opacity: .8;
+    font-weight: bold;
+}
+
+
+
+#lottie-contact-us {
+    cursor: pointer;
+    position: fixed;
+    width: 4em;
+    bottom: 2%;
+    right: 2%;
+    z-index: 10;
+}
+
+#lottie-home {
+    z-index: -5;
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+    width: max(60svw, 40em);
+}

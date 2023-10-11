@@ -1,0 +1,78 @@
+
+/* FAQ'S SECTION STYLING */
+#faqs-section {
+    width: 100%;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#faqs-section .queries-section {
+    position: relative;
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    padding: 10px 0px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 10px;
+    margin: 3em 0em;
+}
+#faqs-section .queries-section .pre-loader{
+    text-align: center;
+}
+
+#faqs-section .faqs:nth-child(1) {
+    border-top: 2px solid black
+}
+
+#faqs-section .faqs {
+    display: flex;
+    padding: 25px 20px;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+
+#faqs-section .faqs-both {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    overflow: hidden;
+    transition: 0.5s ease;
+    padding: 10px 30px;
+}
+
+#faqs-section .faqs-both .reply {
+    padding: 0px 15px;
+    display: none;
+}
+
+
+.show-faqs-both {
+    display: inline!important;
+}
+
+
+#faqs-section button {
+    font-size: 1em;
+    background-color: #FFC915;
+    padding: 5px 8px;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    background: #FFEBA7;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.question button:hover {
+    transform: translateY(0);
+}

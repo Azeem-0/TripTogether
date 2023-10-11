@@ -1,0 +1,65 @@
+/* CONTACT SECTION STYLING */
+
+#contact-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100svh;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding-bottom: 5em;
+    gap: 10px;
+}
+
+#contact-section div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-section #contact-child1 {
+    background: #f7f7f7;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    margin: 1em 0em;
+}
+
+#contact-section>*,
+#contact-child1>* {
+    padding: 15px 5px;
+}
+
+#contact-child1 :is(form, p) {
+    opacity: .8;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+#contact-child1 div {
+    width: 25em;
+}
+
+#contact-section form :is(input, button) {
+    background: rgb(231, 231, 231);
+    border-radius: 5px;
+    height: 3em;
+    width: 20vw;
+    border: 0;
+    margin: 1em 10px;
+}
+
+#contact-section button {
+    background-color: #FFC915 !important;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

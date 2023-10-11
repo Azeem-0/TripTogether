@@ -1,0 +1,352 @@
+@media screen and (max-width:1080px) {
+    .Toastify__toast {
+        right: 0;
+        position: absolute;
+        min-height: unset !important;
+        font-size: .8em !important;
+        padding: 6px 15px !important;
+    }
+
+    .Toastify__toast-container--top-right {
+        top: 5% !important;
+        left: unset !important;
+        right: 5% !important;
+        min-width: 13em !important;
+        width: fit-content !important;
+    }
+
+    #hero-section {
+        padding: 0px 2.5em;
+    }
+
+    #about-section .about-child {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact-section {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width:700px) {
+    input {
+        padding: 10px 0px;
+    }
+
+    p {
+        font-size: .8em;
+    }
+
+    .section-headings {
+        font-size: 1.2em;
+        padding: 0;
+    }
+
+    .section-headings::after {
+        bottom: -15px;
+        width: 2rem;
+        height: 6px;
+    }
+
+    /* AUTHENTICATION MEDIA QUEREIS */
+
+    .authentication-utility .authentication-form>*,
+    .authentication-utility .authentication-form {
+        padding: 13px;
+    }
+
+    .authentication-utility h1 {
+        font-size: 1.5em;
+    }
+
+
+    .authentication-utility .authentication-form form>* {
+        width: 13em;
+    }
+
+    .PhoneInput {
+        width: 11em !important;
+    }
+
+    .authentication-utility form {
+        align-items: center;
+    }
+
+    /* HOME PAGE MEDIAQUERIES */
+    #hero-section {
+        padding: 12em 1.5em 16em 2.5em;
+        position: relative;
+    }
+
+    #hero-section h3 {
+        font-size: 1em;
+    }
+
+    #hero-section h1 {
+        font-size: 2.4em;
+        line-height: 1.3;
+    }
+
+    #hero-section p {
+        font-size: .8em;
+        width: fit-content;
+    }
+
+    #hero-section>* {
+        margin: 5px 0px 5px 0px;
+    }
+
+    #hero-section button {
+        padding: 5px 15px;
+        font-size: .6em;
+    }
+
+    #hero-section #lottie-contact-us {
+        width: 3em;
+    }
+
+    #hero-section #lottie-home {
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%) !important;
+        width: 100%;
+    }
+
+    /* ABOUT SECTION STYLING */
+
+    .reveal-section {
+        transform: translateY(50px);
+    }
+
+    #about-section {
+        border-radius: 10px;
+    }
+
+    .about-description {
+        width: fit-content !important;
+        padding: 10px 8%;
+        align-items: center;
+    }
+
+    #about-section .about-child {
+        flex-direction: column-reverse !important;
+        padding: 2.5em 0em;
+        gap: 2em;
+    }
+
+    .about-image img,
+    .about-image div {
+        width: 15em !important;
+    }
+
+    #about-section .about-child .about-description h2 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    #about-section .about-child .about-description p {
+        font-size: .8em;
+    }
+
+    /* SELECTING ONE OPTION MEDIAQUEIRES */
+    #select-one-section div {
+        width: 12em;
+    }
+
+    #select-one-section div p {
+        font-size: 0.7em;
+    }
+
+    #select-one-section div>* {
+        margin: 0em 0em 1em 0em;
+    }
+
+    #select-one-section div button {
+        font-size: .5em;
+    }
+
+    #select-one-section div h1 {
+        font-size: 1em;
+    }
+
+    /* SEARCHING TRIPS MEDIA QUERIES */
+    #search-trips-section h1 {
+        padding: 0em 20px;
+        font-size: 2em;
+        margin-top: 2em;
+    }
+
+    #search-trips-heading p {
+        padding: 0px 10px;
+    }
+
+    #search-trips-section h3 {
+        font-size: .8em;
+    }
+
+    #search-heading {
+        gap: 1.5em;
+        height: 100svh;
+        padding: 0;
+    }
+
+    #search-trips-section form {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        background: #f9f9f9;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    }
+
+    .single-trip-card {
+        width: 80%;
+        height: 13em;
+    }
+
+    .single-trip-section {
+        font-size: .7em;
+    }
+
+    .single-trip-section img,
+    .single-trip-section .blur-hash {
+        width: 8em !important;
+    }
+
+    .single-trip-section .blur-hash {
+        height: 150px !important;
+    }
+
+    .single-trip-section button {
+        font-size: .7em;
+    }
+
+    .containerButtons li a {
+        padding: 3px 3px;
+    }
+
+    .containerButtons li {
+        margin: 10px;
+    }
+
+    /* FAQ'S MEDIA QUERIES */
+    #faqs-section .faqs-both {
+        width: 100%;
+    }
+
+    #faqs-section .queries-section {
+        width: 80%;
+    }
+
+    #faqs-section p {
+        text-transform: capitalize;
+        font-size: .7em;
+    }
+
+    #faqs-section button {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    /* CONTACT SECTION MEDIAQUERIES */
+    #contact-section p {
+        font-size: .8em;
+        text-align: center;
+        padding: 10px 5px;
+    }
+
+    #contact-child1 div {
+        width: 70vw;
+    }
+
+    #contact-child1 {
+        flex-direction: column;
+        width: 80% !important;
+    }
+
+    #contact-child1 div:nth-child(1) {
+        margin-right: 3em;
+    }
+
+    #contact-section form :is(input, button) {
+        width: 15em;
+        height: 2.5em;
+    }
+
+    #contact-child1 form input::placeholder {
+        font-size: .8em;
+    }
+
+    /* POST SECTION MEDIA QURIES */
+    #post-trips-heading {
+        padding: 7em 1em 4em;
+        height: fit-content;
+        gap: 1.5em;
+    }
+
+    #post-trips-section {
+        height: fit-content;
+    }
+
+    #post-trips-section h1 {
+        font-size: 2em;
+    }
+
+    #post-trips-section p {
+        font-size: 0.8em;
+    }
+
+    #post-trips-section form {
+        width: fit-content;
+        flex-direction: column;
+        background-color: white;
+        padding: 15px 0px;
+    }
+
+    #post-trips-section form input {
+        /* width: 100%; */
+        min-width: 10em;
+    }
+
+    .react-datepicker__input-container {
+        position: relative;
+    }
+
+    .react-datepicker__input-container input {
+        width: 100%;
+    }
+
+    #post-trips-section form>* {
+        margin: 10px 35px;
+    }
+
+    .carousel .slider-wrapper {
+        width: 100%;
+    }
+
+    .carousel-root {
+        width: 90%;
+    }
+
+    /* FOOTER SECTION MEDIA-QUERIES */
+    #footer-section p,
+    h5 {
+        font-size: .8em;
+    }
+
+    #footer-section h3 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #select-one-section div {
+        width: 8em;
+        font-size: .6em;
+    }
+
+    #select-one-section div button {
+        padding: 0;
+    }
+}
