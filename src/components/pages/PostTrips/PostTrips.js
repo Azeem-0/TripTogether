@@ -154,6 +154,7 @@ const PostTrips = () => {
             const formElement = document.querySelector(".post-form");
             setLoader(true);
             const token = localStorage.getItem("token");
+            console.log(token);
             const headers = {
                 'Authorization': `Bearer ${token}`,
                 'Content-Type': "application/json"
