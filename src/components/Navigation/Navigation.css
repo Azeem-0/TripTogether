@@ -1,0 +1,155 @@
+/* NAVIGATION STYLING */
+#navigation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
+#navigation h2 {
+    margin: 1em;
+    transition: .5s ease;
+}
+
+.one-navigation {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    margin: 1em;
+    margin-left: 5em;
+}
+
+.one-navigation div {
+    display: flex;
+    transition: 0.5s ease-in-outs;
+    gap: 30px;
+}
+
+.one-navigation div:first-child>* {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: 0;
+    background: transparent;
+    font-size: 1em;
+}
+
+.one-navigation div :is(a):hover {
+    transform: translateY(-10px);
+    border-bottom: 2px solid #FFC915;
+}
+
+.log-button {
+    width: 7em;
+    height: 3em;
+    border: 0;
+    background-color: #292727;
+    color: white;
+}
+
+/* MINI NAVIGATION STYLING */
+#mini-navigation {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: fit-content;
+    position: absolute;
+    background-color: #FFEBA7;
+    display: flex;
+    align-items: flex-end;
+    z-index: 5;
+    justify-content: flex-start;
+}
+
+#mini-navigation div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    padding: 5em 20px 20px 20px;
+}
+
+.two-navigation .lottie {
+    width: 5em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mini-navigation div button {
+    margin-top: 1em;
+}
+
+#mini-navigation div a {
+    color: black;
+    border: 0;
+    text-decoration: none;
+    background: transparent;
+    font-size: 1em;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: left;
+}
+
+#progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #FFC915;
+    transform-origin: 0%;
+    height: 4px;
+    width: 100%;
+}
+
+/* SELECTING ONE OPTION OF POSTING OR SEARCHING TRIPS */
+
+#select-one-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 50px;
+}
+
+#select-one-section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 17em;
+    padding: 20px;
+    text-align: justify;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#select-one-section h1 {
+    font-family: Balmy;
+    font-weight: lighter;
+}
+
+#select-one-section div>* {
+    transition: .3s ease;
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+#select-one-section div button {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: #FFC915;
+}
