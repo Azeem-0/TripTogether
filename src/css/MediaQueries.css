@@ -308,10 +308,10 @@
         flex-direction: column;
         background-color: white;
         padding: 15px 0px;
+        align-items: center;
     }
 
     #post-trips-section form input {
-        /* width: 100%; */
         min-width: 10em;
     }
 
