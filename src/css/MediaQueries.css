@@ -230,6 +230,12 @@
         margin: 10px;
     }
 
+    #search-trips-section form button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     /* FAQ'S MEDIA QUERIES */
     #faqs-section .faqs-both {
         width: 100%;

@@ -120,18 +120,6 @@
     gap: 15px;
 }
 
-/* .single-trip-section:nth-child(1) {
-    border-top: 1px solid black;
-} */
-
-/* .single-trip-section {
-    padding: 15px 10px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 1px solid black;
-} */
 .single-trip-section {
     width: fit-content;
     height: fit-content;
@@ -161,13 +149,6 @@
 }
 
 
-
-/* .single-trip-body {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .single-trip-body>* {
     margin: auto;
@@ -202,25 +183,35 @@
     font-size: 1em;
 }
 
-.single-trip-card {
-    background-color: #fce8a9;
-    height: fit-content !important;
-    width: fit-content !important;
-    transition: .3s ease-in;
-    transform: translate(-50%, -50%) scale(1.2);
-    transform-origin: center;
+
+.overlay {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    border: 0 !important;
-    z-index: 10;
-    padding: 0 !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
 }
+
 
 .pop-up-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
+    background-color: #fce8a9;
+    height: fit-content !important;
+    width: fit-content !important;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: 0 !important;
+    padding: 0 !important;
 }
 
 .trip-pop-up {
