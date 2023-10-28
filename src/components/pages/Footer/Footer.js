@@ -13,9 +13,16 @@ const SocialIcons = () => {
 }
 function Footer() {
     const navigate = useNavigate();
+    const goToTop = () => {
+        navigate("/");
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
     return <div id="footer-section">
         <div id="footer-description">
-            <h3 onClick={()=>{navigate("/")}}>TRIP TOGETHER</h3>
+            <h3 onClick={goToTop}>TRIP TOGETHER</h3>
             <div className="footer-1">
                 <p>azeemshaik025@gmail.com</p>
                 <div></div>

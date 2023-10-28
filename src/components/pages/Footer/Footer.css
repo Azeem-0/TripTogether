@@ -28,7 +28,7 @@
     padding: 10px 50px;
     color: black;
     border-radius: 5px;
-
+    cursor: pointer;
 }
 
 #footer-section #footer-description .footer-1 {
