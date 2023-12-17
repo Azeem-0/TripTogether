@@ -20,7 +20,7 @@ function App() {
     window.scrollTo(0, 0);
     setTimeout(() => {
       setLoader(false);
-    }, 3000)
+    }, 1000)
   }, []);
 
   return <div id="app">

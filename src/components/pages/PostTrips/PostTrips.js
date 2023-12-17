@@ -34,7 +34,7 @@ const StepOne = (props) => {
     </form>
 }
 const StepTwo = (props) => {
-    const { tripInfo: { start_time, reach_time }, updateChanges } = props;
+    const { updateChanges } = props;
     const [stopOver, setStopOver] = useState("");
     const [date, setDate] = useState(new Date());
     const updateStopOvers = (e) => {
@@ -42,29 +42,14 @@ const StepTwo = (props) => {
         setStopOver(value);
     }
     return <form className="post-form">
-        {/* <div className="time-details"> */}
-        {/* <label>Trip Date</label> */}
         <DatePicker selected={date} onChange={(date) => {
             setDate(date);
             updateChanges(date);
         }} />
-        {/* </div> */}
-        {/* <div className="time-details"> */}
-        {/* <label>Start Time</label> */}
-        {/* <input name="start_time" type="time" placeholder="Start Time" required onChange={updateChanges}></input> */}
-        <input name="start_time" type="text" placeholder="Start Time" required onChange={updateChanges} value={start_time} style={{ color: 'black' }}></input>
-        {/* </div> */}
-        {/* <div className="time-details"> */}
-        {/* <label>End Time</label> */}
-        {/* <input name="reach_time" type="time" placeholder="Reach Time" required onChange={updateChanges}></input> */}
-        <input name="reach_time" type="text" placeholder="Reach Time" required value={reach_time} onChange={updateChanges}></input>
-
-        {/* </div> */}
-        {/* <div className="time-details"> */}
-        {/* <label>Stop Overs</label> */}
+        <input name="start_time" type="text" placeholder="Start Time" style={{ color: '#999' }} onFocus={(e) => e.target.type = 'time'} onBlur={(e) => e.target.type = 'text'} onChange={updateChanges} />
+        <input name="reach_time" type="text" placeholder="Reach Time" onFocus={(e) => e.target.type = 'time'} onBlur={(e) => e.target.type = 'text'} onChange={updateChanges}></input>
         <input name="stop_overs" id="stop_overs" onChange={updateStopOvers} type="text" placeholder="Enter Stop Overs"></input>
         <button style={{ backgroundColor: '#FFC915', color: 'black' }} name={stopOver} type="button" onClick={updateChanges}>Add Stop Overs</button>
-        {/* </div> */}
     </form>
 }
 const StepThree = (props) => {
