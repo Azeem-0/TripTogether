@@ -28,7 +28,7 @@ function Footer() {
                 <div></div>
                 <p>+917995772042</p>
             </div>
-            <h5>© TRIP TOGETHER 2023. All rights reserved.</h5>
+            <h5>© TRIP TOGETHER 2024. All rights reserved.</h5>
             <SocialIcons />
         </div>
     </div>
